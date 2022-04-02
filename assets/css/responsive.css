@@ -1,0 +1,101 @@
+
+/* Mobie */
+@media (max-width:739px){
+
+    .c-flexcol{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .c-flexrercol {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    #slider {
+        width: 100%;
+    }
+
+    #slider .downl-form {
+        top: 12px;
+        right: 0;
+        width: 100%;
+        border-radius: 0px;
+        
+    }
+
+
+    #slider .downl-form .downl-child {
+        padding: 0px;
+    } 
+
+    .slider__title, .slider__paraph {
+        display: none;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .btn--download {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        border-radius: 0px;
+    }
+
+    .btn--slide {
+        border-radius: 0px;
+        top: 100%;
+        right: 0;
+    }
+
+    /* Clarity  */
+    .substance {
+        padding-right: 0px;
+        flex-basis: 100%;
+        padding-bottom: 32px;
+    }
+
+    .img {
+        text-align: center;
+    }
+
+    /*  */
+    .premium-col {
+        padding-top: 32px;
+    }
+
+    /* Modal */
+    .modal_content {
+        padding: 32px 16px 48px;
+        position: relative;
+    }
+
+    .modal_close {
+        position: absolute;
+        top: 12px;
+        right: 8px;
+    }
+
+
+
+
+}
+
+
+
+/* Table */
+@media (min-width:739px) and (max-width: 1023px) {
+    body {
+        margin: 0;
+    }
+
+    .clarity__img {
+        margin-right: 16px;
+    }
+}
+
